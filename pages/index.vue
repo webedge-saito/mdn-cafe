@@ -7,7 +7,7 @@
    />
     <div class="w-full md:max-w-3xl mx-auto pt-20 pb-20 px-6">
       <base-heading>MdN Cafeのおすすめメニュー</base-heading>
-      <div class="flex flex-wrap justify-between mb-10">
+      <div class="flex flex-wrap justify-between md:mb-0 mb-10">
         <layout-menu-list 
           v-for="(item, index) in menuItems"
           :key="index"
